@@ -2,27 +2,34 @@ pipeline {
   agent any
   stages {
     stage ('Checkout') {
-      echo 'abc'
+      steps {
+        echo 'abc'
+      }
     }
 
     stage ('Create Virtualenv') {
-      echo 'abc'
-    }
+      steps {
+        echo 'abc'
+      }    }
 
     stage ('Install') {
-      echo 'abc'
-    }
+      steps {
+        echo 'abc'
+      }    }
 
     stage ('Unit Test') {
-      echo 'abc'
-    }
+      steps {
+        echo 'abc'
+      }    }
 
     stage ('E2E Test') {
-      echo 'abc'
-    }
+      steps {
+        echo 'abc'
+      }    }
 
     stage ('Deploy') {
-      echo 'abc'
-    }
+      steps {
+        echo 'abc'
+      }    }
   }
 }
